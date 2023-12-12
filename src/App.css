@@ -1,0 +1,353 @@
+* {
+  color: black;
+  margin: 10px;
+}
+
+body {
+  /* border: solid rgb(5, 2, 30) 5px;
+  border-radius: 10px;
+  margin: 10px; */
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.logoi {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  margin: 0 2rem 0 0;
+  box-shadow: slategrey 2px 1px 0 0;
+  border: slateblue;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 15rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin: 0 0 0 9rem;
+  border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* 
+
+.navbar {
+  border: solid 01px rgb(255, 255, 255);
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: #000000 2px 1px 0 0;
+  background-color: rgb(238, 500, 417);
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.n1 {
+  box-shadow: black 0 0 0 0;
+}
+
+.an1 {
+  text-decoration: none;
+  color: black;
+}
+
+.an1:hover {
+  text-decoration: none;
+  color: rgba(45, 3, 3, 0.599);
+} */
+
+.card {
+  border: ridge rgb(5, 2, 30) 2px;
+  border-radius: 10px;
+  background-image: radial-gradient(#ffffff, rgb(255, 202, 210));
+  color: black;
+  min-width: 69rem;
+  min-height: 100px;
+  margin: 15px;
+  padding: 20px;
+  max-height: 150px;
+  max-width: 69rem;
+}
+
+.card:hover {
+  border: ridge rgb(5, 2, 30) 2px;
+  border-radius: 10px;
+  background-image: radial-gradient(#ffffff, rgb(255, 167, 181));
+  color: black;
+  min-width: 69rem;
+  min-height: 100px;
+  margin: 15px;
+  padding: 20px;
+  max-height: 150px;
+  max-width: 69rem;
+}
+
+details {
+  /* font-family: ; */
+  text-decoration: none;
+}
+
+.ml {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 4px 3px 5px 0;
+}
+
+.ml:hover {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  background-color: gainsboro;
+  box-shadow: 4px 3px 0px 0;
+}
+
+.ml1 {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 3px 2px 5px 0;
+}
+
+.ml1:hover {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 3px 2px 0 0;
+  background-color: lavender;
+}
+
+.ml2 {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 2px 1px 4px 0;
+}
+
+.ml2:hover {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 2px 1px 0px 0;
+  background-color: rgb(241, 241, 252);
+}
+
+.ml3 {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 2px 1px 4px 0;
+}
+
+.ml3:hover {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 2px 1px 0px 0;
+  background-color: rgb(241, 241, 252);
+}
+
+.ml4 {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 1px 0px 4px 0;
+}
+
+.ml4:hover {
+  width: 100%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 1px 0px 0px 0;
+  background-color: rgb(241, 241, 252);
+}
+
+.box {
+  border: solid 1px slategray;
+  border-radius: 10px;
+}
+
+.kc {
+  width: 14rem;
+  border: solid 1px #333;
+  height: 15rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-image: radial-gradient(#ffffff, #83b1e1);
+  font-family: "Courier New", Courier, monospace;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px 1px;
+}
+
+.kc:hover {
+  width: 14rem;
+  border: solid 1px #333;
+  height: 15rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-image: radial-gradient(#ffffff, #4b9ef8);
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 2px 2px 0px 0px;
+  cursor: pointer;
+}
+
+.kc:active {
+  width: 25rem;
+  position: fixed;
+  top: 5rem;
+  border: solid 1px #333;
+  height: 25rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-image: radial-gradient(#ffffff, #4b9ef8);
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 2px 2px 0px 0px;
+  visibility: visible;
+
+  .c2 {
+    visibility: hidden;
+  }
+}
+
+.c1 {
+  height: 85%;
+  overflow: hidden;
+}
+
+.c1:hover {
+  height: 85%;
+  overflow: hidden;
+}
+
+.c2 {
+  height: 15%;
+}
+
+.c2:hover {
+  height: 15%;
+  /* overflow: hidden; */
+  color: #0400ff;
+  cursor: pointer;
+}
+
+.c2:active {
+  visibility: hidden;
+  height: 15%;
+  /* overflow: hidden; */
+  color: #0400ff;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* 
+gainboro 
+ivory
+lemonchiffon
+levender
+lightcyan
+lightyellow
+slategrey */
