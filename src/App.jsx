@@ -1,12 +1,15 @@
 import './App.css'
 import Navbar from './component/navbar'
+import Sidebar from './component/Sidebar'
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <div>
+      <Sidebar />
+      <div className="main-content">
+        <Navbar />
+        <div>
         {/* container to write the English Word
 
         <div className='card'>
@@ -665,7 +668,7 @@ function App() {
 
         </details>
       </div >
-
+      </div>
     </>
   )
 }

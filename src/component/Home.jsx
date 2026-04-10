@@ -1,12 +1,15 @@
 import '../App.css'
 import Navbar from './navbar';
+import Sidebar from './Sidebar';
 
 const Home = () => {
     return (
         <>
-            <Navbar />
-            <div>
-                {/* container to write the English Word
+            <Sidebar />
+            <div className="main-content">
+                <Navbar />
+                <div>
+                    {/* container to write the English Word
 
         <div className='card'>
           <h3> Word : </h3>
@@ -664,7 +667,7 @@ const Home = () => {
 
                 </details>
             </div >
-
+            </div>
         </>
     )
 }
